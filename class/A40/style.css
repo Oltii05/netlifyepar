@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    background-image: linear-gradient(
+        90deg,
+        rgb(93, 167, 93, 0.5) 0%,
+        rgba(0,125,32,0.8) 100%
+    ),
+      url(https://www.nemoequipment.com/wp-content/uploads/PowerOfTheOutdoors_ColorsAreNaturesSmiles-1024x682.jpg)
+    ;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 30px;
+    margin: 0;
+}
+p{
+    letter-spacing: 15px;
+    margin-bottom: 50px;
+}
+a:link{
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px 30px;
+    color: #a3a3a3;
+}
+a:visited{
+    color: #a3a3a3;
+}

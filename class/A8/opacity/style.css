@@ -1,0 +1,17 @@
+.colona{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+img{
+    padding: 10px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+}

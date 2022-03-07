@@ -1,0 +1,95 @@
+.balls{
+display: inline-flex;
+margin-left: 480px;
+top: 100vh;
+}
+.red{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 100%;
+    animation: ekuqe 4s infinite ;
+    margin-right: 50px;
+    margin-left: 1px;
+}
+
+.blue{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 100%;
+    animation: eblue 3.7s infinite ;
+    margin-right: 50px;
+}
+
+.orange{
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 100%;
+    margin-right: 50px;
+    animation: ori 3.8s infinite ;
+}
+
+.purple{
+    background-color: purple;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 100%;
+    margin-right: 50px;
+    animation: viol 3.5s infinite ;
+}
+
+.black{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 100%;
+    animation: zeza 4.1s infinite ;
+}
+
+@keyframes ekuqe{
+    
+    0% {bottom: 90vh;}
+    25% { bottom: -70vh;}
+    50% {bottom: -60vh;}
+    75% { bottom: -65vh;}
+    100% { bottom: 100vh;}
+}
+@keyframes eblue{
+    
+    0% {bottom: 50vh;}
+    25% { bottom: -70vh;}
+    50% {bottom: -60vh;}
+    75% { bottom: -65vh;}
+    100% { bottom: 100vh;}
+}
+@keyframes ori{
+    
+    0% {bottom: 50vh;}
+    25% { bottom: -70vh;}
+    50% {bottom: -60vh;}
+    75% { bottom: -65vh;}
+    100% { bottom: 100vh;}
+}
+@keyframes viol{
+    
+    0% {bottom: 100vh;}
+    25% { bottom: -70vh;}
+    50% {bottom: -60vh;}
+    75% { bottom: -65vh;}
+    100% { bottom: 100vh;}
+}
+@keyframes zeza{
+    
+    0% {bottom: 100vh;}
+    25% { bottom: -70vh;}
+    50% {bottom: -60vh;}
+    75% { bottom: -65vh;}
+    100% { bottom: 100vh;}
+}

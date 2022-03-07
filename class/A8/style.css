@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D7D7D7;
+    font-family: 'DM Serif Display', serif;
+}
+.card{
+    width: 344px;
+    height: 
+    672px;
+    background-color: white;
+    margin: 15px 50px;
+    padding: 40px;
+    display: inline-block;
+    border-radius: 16px;
+    
+}
+.card-price{
+    font-size: 50px;
+    color: #081F32;
+}
+.price-month{
+    font-size: 16px;
+    color: #A5ADBB;
+}
+.card-img{
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+}
+.card-title{
+    font-size: 28px;
+    color: #F3B10E;
+    margin-top: 25px;
+}
+.card-desc{
+    margin-top: 8px;
+    display: inline-block;
+    width: 254px;
+    color: #92969D;
+    height: 75px;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-bullet{
+    display: inline-block;
+    color: #6e798c;
+    font-size: 16px;
+    margin-top: 25px;
+    padding-left: 10px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-tick{
+    width: 18px;
+    height: 14.59px;
+    display: inline-block;
+}
+.card-button{
+    width: 264px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ebeced;
+    color: #798289;
+    font-size: 16px;
+    margin-top: 20px;
+}
+hr{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #EBECED;
+}

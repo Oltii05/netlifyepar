@@ -1,0 +1,32 @@
+.tooltip{
+    position: relative;
+    border-bottom: 1px dashed #000;
+    margin: 100px;
+    margin-top: 200px;
+}
+.tooltip::before{
+    content: attr(data-text);
+    position: absolute;
+
+    //pozicionimi vertikal
+    top: 50%;
+    transform: translateY(-50%);
+
+    //levizja djathtas
+    left: 100%;
+    margin-left: 15px;
+
+    //stilizimi bazik
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background:#000 ;
+    color: #fff;
+    text-align: center;
+
+    //te zhduket si parazgjedhje
+    display: none;
+}
+.tooltip:hover:before{
+    display: block;
+}

@@ -1,0 +1,77 @@
+.first-p{
+    box-shadow: 0px 6px 30px 4px rgba(0, 0, 0, 0.05);
+    width: 1510px;
+    height: 94px;
+    text-align: center;
+    background-color: white;
+    padding-top: 1px ;
+    font-size: 17px;
+}
+ body{
+     background-color: #FFFFFF;
+ }
+ .lyrics{
+     font-size: 14px;
+     font-family: 'Noto Serif', serif;
+     font-weight: 300;
+ }
+ .lyrics-p{
+     width: 878px;
+     height: 800px;
+     background-color: white;
+     text-align: center;
+     border-radius: 10px;
+     box-shadow: 0px 19px 30px 4px rgba(0, 0, 0, 0.05);
+     display: inline-block;
+     margin-right: 150px;
+     margin-left: 50px;
+ }
+ .song-t{
+    padding-top: 50px;
+    font-size: 30px;
+ }
+ .bio{
+     width: 324px;
+     height: 802px;
+     border-radius: 10px;
+     background-color: white;
+     display: inline-block;
+     color: black;
+     margin-top: 50px;
+     margin-left: 10px;
+     font-family: 'Merriweather', serif;
+     box-shadow: 0px 6px 30px 4px rgba(0, 0, 0, 0.05);
+ }
+ .photo{
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 30px;
+    size: 150pxS;
+ }
+ .dua-lipa{
+     font-size: 25px;
+     text-align: center;
+     font-family: 'Merriweather', serif;
+ }
+ .birth{
+     font-size: 14px;
+     text-align: center;
+     color: #575757;
+     font-weight: 300;
+     font-family: 'Merriweather', serif;
+ }
+ .songs{
+     padding-top: 10px;
+     font-size: 12px;
+     text-align: center;
+     color: #575757 ;
+     line-height: 30px;
+     font-weight: 300;
+     font-family: 'Merriweather', serif;
+ }
+ .olti{
+     display: inline-block;
+ }
+ .olra{
+     display: inline-block;
+ }

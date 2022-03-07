@@ -1,0 +1,95 @@
+$back-red: rgb(231, 59, 59);
+$btn-red: rgb(255, 0, 0);
+
+body{
+    background-color: darkblue;
+    display: flex ;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.container{
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: $back-red;
+    
+    }
+    .btn{
+        padding: 15px 45px;
+        border: 1px solid $primary-green;
+        color: $primary-green;
+        border-radius: 0.5em;
+        display: inline-block;
+        margin-top: 2em;
+        background-color: transparent;
+        font-weight: 700;
+        transition: 0.3s; 
+        
+        &:hover{
+            background-color: $primary-green;
+            color: black;
+            font-weight: bold;}
+        }
+    .info{
+        display: inline-block;
+        border: rgb(194, 194, 194) solid 1px;
+        border-radius: 100%;
+        text-decoration: none;
+        color: $back-red;
+        font-weight: 700;
+        background-color: rgb(194, 194, 194);
+        padding: 8px ;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+    .title{
+        display: inline-block;
+        color: wheat;
+    }
+    .para{
+        color: wheat;
+        margin: 0 20px;
+        margin-bottom: 50px;
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    .btn1{
+        text-decoration: none;
+        color: wheat;
+        font-weight: 700;
+        background-color: $btn-red;
+        border-radius: 15px;
+        border: rgb(224, 2, 2) solid 3px;
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-left: 18px;
+    }
+    .btn2{
+        text-decoration: none;
+        color: $back-red;
+        font-weight: 700;
+        background-color: wheat;
+        border: wheat solid 3px;
+        margin-left: 100px;
+        border-radius: 15px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+}
+.modal{
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s,visibility 0s;
+    z-index: 1;
+
+    &:target{
+        visibility: visible;
+        opacity: 1;
+        transition-delay: 0s;
+    }
+}

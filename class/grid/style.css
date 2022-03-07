@@ -1,0 +1,70 @@
+.conatiner{
+    background-color: gray;
+    width: 1000px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr) ;
+    /* repeat veq mashkurt dmth 2 rows me i bo ka 150 */
+    /* fr esht hapsira e mbetur ne container, dmth merr krejt hapsiren e mbetur */
+    grid-template-rows: repeat( 3, 150px);
+    grid-gap: 15px;
+}
+.item{
+    padding: 20px; 
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+.black{
+    background-color: black;
+    /* grid-row-start: 2;
+    grid-row-end: 3; */
+    grid-column-start: 3;
+    grid-row-start: 2;
+    text-align: center;
+    padding-top: 50px;
+}
+.pink{
+    background-color: pink;
+    grid-column-start: 2;
+    text-align: center;
+    padding-top: 50px;
+}
+.green{
+    background-color: lightgreen;
+    
+}
+.orange{
+    background-color: rgb(211, 157, 57);
+    /* grid-column-start: 1;
+    grid-row-start: 1; */
+    grid-column-start: 3;
+    grid-row-start: 1;
+    text-align: center;
+    padding-top: 50px;
+}
+.red{
+    background-color: rgb(209, 63, 63);
+    grid-row-end: 3;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    text-align: center;
+    padding-top: 50px;
+}
+.blue{
+    background-color: lightblue;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    text-align: center;
+    padding-top: 50px;
+}
+.purple{
+    background-color: purple;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+    padding-top: 50px;
+}

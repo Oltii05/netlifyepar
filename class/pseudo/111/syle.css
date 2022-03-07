@@ -1,0 +1,21 @@
+p::first-line{
+    background-color: lightsalmon;
+}
+.desc::before{
+   content: "BEFORE";
+   color: red;
+}
+.description::before{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    display: inline-block;
+}
+.description::after{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    display: inline-block;
+}

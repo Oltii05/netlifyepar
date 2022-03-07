@@ -1,0 +1,71 @@
+body {
+  background-color: darkblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 450px;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #e73b3b;
+}
+
+.container .info {
+  display: inline-block;
+  border: #c2c2c2 solid 1px;
+  border-radius: 100%;
+  text-decoration: none;
+  color: #e73b3b;
+  font-weight: 700;
+  background-color: #c2c2c2;
+  padding: 8px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.container .title {
+  display: inline-block;
+  color: wheat;
+}
+
+.container .para {
+  color: wheat;
+  margin: 0 20px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.container .btn1 {
+  text-decoration: none;
+  color: wheat;
+  font-weight: 700;
+  background-color: red;
+  border-radius: 15px;
+  border: #e00202 solid 3px;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-left: 18px;
+}
+
+.container .btn2 {
+  text-decoration: none;
+  color: #e73b3b;
+  font-weight: 700;
+  background-color: wheat;
+  border: wheat solid 3px;
+  margin-left: 100px;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */

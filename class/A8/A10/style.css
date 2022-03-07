@@ -1,0 +1,16 @@
+.tabela, tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.nr1{
+    background-color: red;
+}
+.nr3{
+    background-color: orange;
+}
+.nr5{
+    background-color: turquoise;
+}
+.nr4{
+    background-color: yellow;
+}

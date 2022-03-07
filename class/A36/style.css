@@ -1,0 +1,53 @@
+.firstRow, .secondRow{
+    margin-left: 300px;
+
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    width: 100px;
+    height: 100px;
+}
+.red{
+    background-color: red;
+    transition: transform 1s ease-in;
+    transform-origin: 0 0;
+}
+.blue{
+    background-color: blue;
+    transition: transform 1s ease-in;
+    transform-origin: 100px 0;
+}
+.yellow{
+    background-color: yellow;
+    transition: transform 1s ease-in;
+    transform-origin: 0 100px;
+}
+.green{
+    background-color: green;
+    transition: transform 1s ease-in;
+    transform-origin: 100px 100px;
+}
+.container:hover .firstRow .red{
+    transform: rotate(90deg);
+}
+.container:hover .firstRow .blue{
+    transform: rotate(-90deg);
+}
+.container:hover .secondRow .yellow{
+    transform: rotate(-90deg);
+}
+.container:hover .secondRow .green{
+    transform: rotate(90deg);
+}
+p{
+    position: relative;
+    top: 410px;
+    left: 370px;
+    font-size: 20px;
+    font-weight: 800;
+    z-index: -1;
+}
+.firstRow{
+    margin-top: 300px;
+}

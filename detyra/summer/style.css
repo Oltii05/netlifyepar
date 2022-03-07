@@ -1,0 +1,27 @@
+.top-title{
+    background-color: rgb(107, 17, 193);
+}
+.fleur{
+    color: rgb(255, 143, 199);
+    padding-left: 13px;
+    display: inline-block;
+    font-size: 35px;
+    height: 40px;
+}
+.small-flw{
+    padding-left: 50px;
+}
+.title{
+    background-color: white;
+    border: mediumvioletred;
+    width: 550px;
+    height: 90px;
+    border-radius: 20px;
+    text-align: center;
+    border: mediumorchid 5px solid;
+    margin-top: 45px;
+    margin-left: 35%;
+}
+.fra-ttl{
+    font-size: 35px;
+}
